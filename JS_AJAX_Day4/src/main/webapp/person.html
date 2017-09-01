@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <h1>Persons:</h1>
+            <button id="btn">Get All Persons</button>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Phone number</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+            <h3>Register</h3>
+            <form id="form" action="PersonServlet" method="POST">
+                First Name:<br>
+                <input type="text" id="fname"><br>
+                Last Name:<br>
+                <input type="text" id="lName"><br>
+                Phone number:<br>
+                <input type="text" id="phone"><br>
+                <input type="submit" value="Create">
+            </form>
+        </div>
+        <script src="person.js"></script>
+    </body>
+</html>
